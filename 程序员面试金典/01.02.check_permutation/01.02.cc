@@ -32,5 +32,6 @@ public:
 int main() {
     Solution s = Solution();
     cout << s.checkPermutation("abc", "bac") << endl;
+    cout << s.checkPermutation("abc", "bad") << endl;
     return 0;
 }
